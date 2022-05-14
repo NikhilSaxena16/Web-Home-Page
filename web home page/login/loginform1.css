@@ -1,0 +1,77 @@
+#{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+	background: 	#000;
+}
+.background{
+	background: url(https://wallpapercave.com/wp/wp2003010.jpg) no-repeat;
+	background-size: cover;
+	height: 95vh;
+	display: flex;
+}
+.text, .box{
+	margin-top: 40vh;
+}
+.text{
+	margin-left: 10%;
+	font-weight: 300px;
+}
+.box{
+	margin-left: 15%;
+	margin-top: 16.2%;
+}
+.text h1{
+	font-size: 70px;
+	color: #fff;
+	margin-top: -10vh;
+	margin-left:30vh;
+	margin-right: -60vh;
+}
+.text p{
+	font-size: 20px;
+	color: #fff;
+	font-weight: 300;
+	margin-left: 27vh;
+	margin-top: -5vh;
+}
+.text p a{
+	color: #fff;
+	font-weight: 900;
+}
+.form{
+	background: transparent;
+	color: #fff;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+}
+input{
+	margin: 20px;
+	padding:10px;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+}
+.username, .password{
+	border-bottom: 3px solid #fff;
+	
+}
+.button{
+	background: transparent;
+	border: 3px solid #fff;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 35px;
+}
+.button:hover{
+	background:#4169E1;
+	color: #fff;
+}
